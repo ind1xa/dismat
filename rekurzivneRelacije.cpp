@@ -2,7 +2,7 @@
 
 using namespace std;
 
-//pomoću formule za opće rješenje homogene rekurzivne relacije
+//pomoću formule za opće rješenje homogene rekurzivne relacije
 double formula (double l1, double l2, double n, double p, int t) {
     if (t == 0) return n;
     if (t == 1) return p;
@@ -27,7 +27,7 @@ double formula (double l1, double l2, double n, double p, int t) {
     return 0;
 }
 
-//računanjem odgovarajućeg člana niza rekurzivno
+//računanjem odgovarajućeg člana niza rekurzivno
 double rekurzivno (double l1, double l2, double n, double p, int t) {
     if (t == 0) {
         return n;
